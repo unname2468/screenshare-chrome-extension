@@ -1,28 +1,29 @@
 {
-    "name" : "BigBlueButton Screenshare Extension",
-    "author": "BigBlueButton",
+    "name" : "Mymeeting Screenshare Extension",
+    "author": "Mymeeting",
     "version" : "0.0.6",
     "manifest_version" : 2,
     "minimum_chrome_version": "34",
-    "description" : "Chrome Extension granting WebRTC screen capturing capabilities to BigBlueButton meetings.",
-    "homepage_url": "https://bigbluebutton.org/",
+    "description" : "Chrome Extension granting WebRTC screen capturing capabilities to Mymeeting meetings.",
+    "homepage_url": "https://mymeeting.uz/",
     "background": {
         "scripts": ["background-script.js"],
         "persistent": true
     },
     "externally_connectable": {
        "matches": [
-           "*://*.bigbluebutton.org/*"
+           "*://*.bigbluebutton.org/*" 
+           "*://*.mymeeting.uz/*"
          ]
     },
     "icons" : {
-        "48" : "icon.png"
+        "48" : "icon1.png"
     },
     "permissions": [
         "desktopCapture"
     ],
     "web_accessible_resources": [
-        "icon.png"
+        "icon1.png"
     ]
 }
 
